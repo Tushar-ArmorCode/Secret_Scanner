@@ -16,7 +16,7 @@ COPY . .
 RUN make clean
 RUN make
 
-FROM alpine:3.17
+FROM alpine:3.18.5
 MAINTAINER DeepFence
 LABEL deepfence.role=system
 
